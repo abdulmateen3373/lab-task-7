@@ -1,0 +1,14 @@
+{
+  "name": "student-management-system",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Lab Task 07 - Part 1 (in-memory API) and Part 2 (persistent API)",
+  "scripts": {
+    "part1": "node part1_in_memory/server.js",
+    "part2": "node part2_persistent/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
